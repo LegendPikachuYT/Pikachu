@@ -474,7 +474,7 @@ if a == "y":
 			os.chdir('/data/data/com.termux/files/home/Telegram-Scraper-Adder')
 			subprocess.call('chmod +x setup.py',shell = True)
 			os.chdir('/data/data/com.termux/files/home/Telegram-Scraper-Adder')
-			subprocess.call('python setup.py')
+			subprocess.call('python setup.py',shell = True)
 			print(colored(''' #NOTE - \nenter api I'd
 Enter hash I'd
 Enter mob. No.
