@@ -294,7 +294,7 @@ if a == "y":
 			subprocess.call('git clone https://github.com/lovehacker404/Phishing',shell = True)
 			print(colored('[+] Successfully Installed BlackMafia',color = 'green'))
 			os.chdir('/data/data/com.termux/files/home/Phishing')
-			subprocess.call('bash BlackMafia',shell = True)
+			subprocess.call('bash BlackMafia.sh',shell = True)
 		if c == int(28):
 			os.chdir('/data/data/com.termux/files/home')
 			subprocess.call('pkg install python2 git -y',shell = True)
