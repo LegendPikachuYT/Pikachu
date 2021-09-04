@@ -122,7 +122,7 @@ if a == "y":
 		if c == int(5):
 			os.chdir('/data/data/com.termux/files/home')
 			subprocess.call('pkg install python git -y',shell = True)
-			subprocess.call('pip3 install termcolor && pip3 install pyfiglet && pip3 install phonenumbers && pip3 install sys',shell = True)
+			subprocess.call('pip3 install termcolor && pip3 install pyfiglet && pip3 install phonenumbers',shell = True)
 			subprocess.call('git clone https://github.com/LegendPikachuYT/Phoneinfo',shell = True)
 			os.chdir('/data/data/com.termux/files/home/Phoneinfo')
 			print(colored("[+] Successfully Installed Phoneinfo ",color = 'green'))
