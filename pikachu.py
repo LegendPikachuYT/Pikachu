@@ -391,7 +391,7 @@ if a == "y":
 			os.chdir('/data/data/com.termux/files/home')
 			subprocess.call('pkg install python2 git -y',shell = True)
 			os.chdir('/data/data/com.termux/files/home')
-			subprocess.call('https://github.com/Ranginang67/DarkFly-Tool',shell = True)
+			subprocess.call('git clone https://github.com/Ranginang67/DarkFly-Tool',shell = True)
 			print(colored('[+] Successfully Installed  Dark-Fly ',color = 'green'))
 			os.chdir('/data/data/com.termux/files/home/DarkFly-Tool')
 			subprocess.call('python2 install.py',shell = True)
