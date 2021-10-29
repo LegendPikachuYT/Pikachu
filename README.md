@@ -19,25 +19,25 @@ INCLUDING OUR MOST FAVOURITE TOOLS ❤❤
 
 ■■■■■■■■■■■■■■■>
 
-pkg install git
+`pkg install git`
 
-pkg install python
+`pkg install python`
 
-termux-setup-storage
+`termux-setup-storage`
 
-git clone https://github.com/LegendPikachuYT/Pikachu
+`git clone https://github.com/LegendPikachuYT/Pikachu`
 
-cd Pikachu
+`cd Pikachu`
 
-pip install termcolor
+`pip install termcolor`
 
-pip install pyfiglet
+`pip install pyfiglet`
 
-pip install sys
+`pip install sys`
 
-pip install subprocess
+`pip install subprocess`
 
-pip install time
+`pip install time`
 
 ■■■■■■■■■■■■■>
 
@@ -45,7 +45,7 @@ pip install time
 
 ■■■■■■■■■■■■■>
 
-python3 pikachu.py
+`python3 pikachu.py`
 
 ■■■■■■■■■>>><<<■■■■■■■■■■
 
