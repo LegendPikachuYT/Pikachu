@@ -1,4 +1,6 @@
-#This is pikachu.py file
+# This is pikachu.py file
+# Using pyfiglet and termcolor Libraries
+
 import sys
 import time
 import subprocess
@@ -582,3 +584,6 @@ elif a == "n":
 else:
 	print("\n\nTHIS IS NOT A VALID OPTION, EXITING THE POKEBALL")
 	exit
+
+# This is a 500 line awesome code made by PikachuYT.
+# End of the program.
