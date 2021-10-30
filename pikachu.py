@@ -572,13 +572,13 @@ Boom! You are done'''))
 			     time.sleep(0.02)
 		if c == int(54):
 			print(colored('Exiting The Tool...',color = 'green'))
-			exit
+			exit()
 	else:
-		print(colored("\n\nTHE ACCESS KEY THAT YOU HAVE ENTERED IS WRONG",color = 'red'))
-		exit
+		print(colored("\nTHE ACCESS KEY THAT YOU HAVE ENTERED IS WRONG",color = 'red'))
+		exit()
 elif a == "n":
-	print(colored("\n\nEXITING THE TOOL",color = 'yellow'))
-	exit
+	print(colored("\nEXITING THE TOOL",color = 'yellow'))
+	exit()
 else:
-	print("\n\nTHIS IS NOT A VALID OPTION, EXITING THE POKEBALL")
-	exit
+	print("\nTHIS IS NOT A VALID OPTION, EXITING THE POKEBALL")
+	exit()
