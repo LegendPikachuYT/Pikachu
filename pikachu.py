@@ -5,45 +5,20 @@ import os
 from utilities import *
 from pyfiglet import Figlet
 from termcolor import colored
-#code begins
 clear()
-print(colored('''
-██████╗░██╗██╗░░██╗░█████╗░
-██╔══██╗██║██║░██╔╝██╔══██╗
-██████╔╝██║█████═╝░███████║
-██╔═══╝░██║██╔═██╗░██╔══██║
-██║░░░░░██║██║░╚██╗██║░░██║
-╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝
-
-██╗░░██╗██╗░░░██╗███╗░░██╗████████╗
-██║░░██║██║░░░██║████╗░██║╚══██╔══╝
-███████║██║░░░██║██╔██╗██║░░░██║░░░
-██╔══██║██║░░░██║██║╚████║░░░██║░░░
-██║░░██║╚██████╔╝██║░╚███║░░░██║░░░
-╚═╝░░╚═╝░╚═════╝░╚═╝░░╚══╝░░░╚═╝░░░
-''',color = 'blue'))
 print("\n\n\n")
 msg0=(colored('''+----------------------------------------------+
-| Name:        Pikachu Hunter
-| Author:      @LegendPikachu_YT
-| Fixed by:    @pikachu_andrey (Telegram, VK)
+| Оригинальный код:      @LegendPikachu_YT
+| Перевод на русский:    @pikachu_andrey (Telegram, VK)
 +----------------------------------------------+\n''',color = 'red'))
 for i in msg0:
     sys.stdout.write(i)
     sys.stdout.flush()
-    time.sleep(0.01)
-a = input("\n\nARE YOU SURE YOU WANT TO START (y/n) = ").lower()
+    time.sleep(0.0075)
+
+input("Нажмите Enter чтобы продолжить...")
+a="y"
 if a == "y":
-    msg1=(colored('''\n\n\n>>> PIKACHU HUNTER IS STARTING...>>>''',color = 'green'))
-    for i in msg1:
-            sys.stdout.write(i)
-            sys.stdout.flush()
-            time.sleep(0.04)
-    print("\n\n")
-    os.system('clear')
-    z = Figlet(font='alligator')
-    print(colored(z.renderText('PIKACHU'),color = 'magenta'))
-    print(colored("\n\n#NOTE - THIS TOOL SHOULD NOT BE USED FOR ANY ILLEGAL USE \n WE ARE NOT RESPONSIBLE IF YOU USE THIS TOOL\n FOR ANY ILLEGAL USE",color = 'red'))
     print(colored("\n\n>>> Opening The Tool Menu >>>",color = 'green'))
     print("\n")
     termsize = os.popen("stty size").read().split(" ") #W H
